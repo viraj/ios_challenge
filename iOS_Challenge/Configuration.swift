@@ -6,8 +6,8 @@
 //
 
 import UIKit
-//krzysztofzablocki
-let GITHUB_TOKEN = "0b73d198f6caca7f1b42991f55149a33beb72b96"
+
+let GITHUB_TOKEN = "83d9b50736aeef7fef6092d43c036c90fea24092"
 let GITHUB_USER_LOGIN = "krzysztofzablocki"
 
 let bounds = UIScreen.main.bounds
