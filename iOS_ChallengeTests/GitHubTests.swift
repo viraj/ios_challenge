@@ -18,7 +18,7 @@ class GitHubTests: XCTestCase {
     
     func testUserId() {
         do {
-            if let user = try GitHub(token: GITHUB_TOKEN).userInfo(user: "WenchaoD") {
+            if let user = try GitHub(token: GITHUB_TOKEN, fromServer: true).userInfo(user: "WenchaoD") {
                 XCTAssertEqual(user.id, "MDQ6VXNlcjUxODY0NjQ=")
             } else {
                 XCTFail()
@@ -30,7 +30,7 @@ class GitHubTests: XCTestCase {
     
     func testUserLogin() {
         do {
-            if let user = try GitHub(token: GITHUB_TOKEN).userInfo(user: "WenchaoD") {
+            if let user = try GitHub(token: GITHUB_TOKEN, fromServer: true).userInfo(user: "WenchaoD") {
                 XCTAssertEqual(user.login, "WenchaoD")
             } else {
                 XCTFail()
@@ -42,7 +42,7 @@ class GitHubTests: XCTestCase {
     
     func testUserEmail() {
         do {
-            if let user = try GitHub(token: GITHUB_TOKEN).userInfo(user: "WenchaoD") {
+            if let user = try GitHub(token: GITHUB_TOKEN, fromServer: true).userInfo(user: "WenchaoD") {
                 XCTAssertEqual(user.email, "f33chobits@gmail.com")
             } else {
                 XCTFail()
@@ -54,7 +54,7 @@ class GitHubTests: XCTestCase {
     
     func testUserFollowers() {
         do {
-            if let user = try GitHub(token: GITHUB_TOKEN).userInfo(user: GITHUB_USER_LOGIN) {
+            if let user = try GitHub(token: GITHUB_TOKEN, fromServer: true).userInfo(user: GITHUB_USER_LOGIN) {
                 if let followers = user.followers {
                     XCTAssertEqual(followers.totalCount, 3273)
                 } else {
@@ -71,7 +71,7 @@ class GitHubTests: XCTestCase {
 
     func testUserFollowings() {
         do {
-            if let user = try GitHub(token: GITHUB_TOKEN).userInfo(user: GITHUB_USER_LOGIN) {
+            if let user = try GitHub(token: GITHUB_TOKEN, fromServer: true).userInfo(user: GITHUB_USER_LOGIN) {
                 if let followings = user.following {
                     XCTAssertEqual(followings.totalCount, 16)
                 } else {
@@ -88,7 +88,7 @@ class GitHubTests: XCTestCase {
     
     func testShouldGetThreePinnedItems() {
         do {
-            if let user = try GitHub(token: GITHUB_TOKEN).userInfo(user: GITHUB_USER_LOGIN) {
+            if let user = try GitHub(token: GITHUB_TOKEN, fromServer: true).userInfo(user: GITHUB_USER_LOGIN) {
                 if let pinnedItems = user.pinnedItems {
                     if let nodes = pinnedItems.nodes {
                         XCTAssertEqual(nodes.count, 3)
@@ -108,7 +108,7 @@ class GitHubTests: XCTestCase {
     
     func testShouldGetTenRepositories() {
         do {
-            if let user = try GitHub(token: GITHUB_TOKEN).userInfo(user: GITHUB_USER_LOGIN) {
+            if let user = try GitHub(token: GITHUB_TOKEN, fromServer: true).userInfo(user: GITHUB_USER_LOGIN) {
                 if let topRepositories = user.repositories {
                     if let nodes = topRepositories.nodes {
                         XCTAssertEqual(nodes.count, 10)
@@ -126,7 +126,7 @@ class GitHubTests: XCTestCase {
     
     func testShouldGetTenStarredRepositories() {
         do {
-            if let user = try GitHub(token: GITHUB_TOKEN).userInfo(user: GITHUB_USER_LOGIN) {
+            if let user = try GitHub(token: GITHUB_TOKEN, fromServer: true).userInfo(user: GITHUB_USER_LOGIN) {
                 if let starredRepositories = user.starredRepositories {
                     if let nodes = starredRepositories.nodes {
                         XCTAssertEqual(nodes.count, 10)
