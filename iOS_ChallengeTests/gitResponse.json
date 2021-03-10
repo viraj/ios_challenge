@@ -1,0 +1,282 @@
+{
+  "data": {
+    "user": {
+      "id": "MDQ6VXNlcjE0Njg5OTM=",
+      "name": "Krzysztof Zabłocki",
+      "login": "krzysztofzablocki",
+      "email": "krzysztof.zablocki@pixle.pl",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1468993?s=400&v=4",
+      "followers": {
+        "totalCount": 3273
+      },
+      "following": {
+        "totalCount": 16
+      },
+      "pinnedItems": {
+        "nodes": [
+          {
+            "id": "MDEwOlJlcG9zaXRvcnk3NjE3MTEwMA==",
+            "name": "Sourcery",
+            "description": "Meta-programming for Swift, stop writing boilerplate code.",
+            "stargazerCount": 5799,
+            "owner": {
+              "id": "MDQ6VXNlcjE0Njg5OTM=",
+              "avatarUrl": "https://avatars.githubusercontent.com/u/1468993?s=25&v=4",
+              "login": "krzysztofzablocki"
+            }
+          },
+          {
+            "id": "MDEwOlJlcG9zaXRvcnkyNTU4NzE1OQ==",
+            "name": "Playgrounds",
+            "description": "Better playgrounds that work both for Objective-C and Swift",
+            "stargazerCount": 2553,
+            "owner": {
+              "id": "MDQ6VXNlcjE0Njg5OTM=",
+              "avatarUrl": "https://avatars.githubusercontent.com/u/1468993?s=25&v=4",
+              "login": "krzysztofzablocki"
+            }
+          },
+          {
+            "id": "MDEwOlJlcG9zaXRvcnk5ODg3MDE1OQ==",
+            "name": "LifetimeTracker",
+            "description": "Find retain cycles / memory leaks sooner.",
+            "stargazerCount": 2348,
+            "owner": {
+              "id": "MDQ6VXNlcjE0Njg5OTM=",
+              "avatarUrl": "https://avatars.githubusercontent.com/u/1468993?s=25&v=4",
+              "login": "krzysztofzablocki"
+            }
+          }
+        ]
+      },
+      "starredRepositories": {
+        "nodes": [
+          {
+            "id": "MDEwOlJlcG9zaXRvcnkzNDM0NjU0MDI=",
+            "name": "HotSwiftUI",
+            "description": "Utilities for Hot Reloading SwiftUI apps.",
+            "stargazerCount": 38,
+            "owner": {
+              "id": "MDQ6VXNlcjE3ODYwMzM=",
+              "avatarUrl": "https://avatars.githubusercontent.com/u/1786033?s=25&u=2fe82e3b21f83a01bb7bb552447c9d75a81623d7&v=4",
+              "login": "johnno1962"
+            }
+          },
+          {
+            "id": "MDEwOlJlcG9zaXRvcnkyNDkyNTIzMjM=",
+            "name": "SwiftInspector",
+            "description": "SwiftInspector is a command line tool built on top of SwiftSyntax to help inspect usage of Swift code",
+            "stargazerCount": 19,
+            "owner": {
+              "id": "MDQ6VXNlcjUzMDY2Mg==",
+              "avatarUrl": "https://avatars.githubusercontent.com/u/530662?s=25&u=1489760f71f8d586a0866865073a569e1f7eaad5&v=4",
+              "login": "fdiaz"
+            }
+          },
+          {
+            "id": "MDEwOlJlcG9zaXRvcnkzMDg1Nzg4MzI=",
+            "name": "swift-composable-navigator",
+            "description": "An open source library for building deep-linkable SwiftUI applications with composition, testing and ergonomics in mind",
+            "stargazerCount": 160,
+            "owner": {
+              "id": "MDEyOk9yZ2FuaXphdGlvbjM5MzQzMTg3",
+              "avatarUrl": "https://avatars.githubusercontent.com/u/39343187?s=25&v=4",
+              "login": "Bahn-X"
+            }
+          },
+          {
+            "id": "MDEwOlJlcG9zaXRvcnkxMTczNTYyMzE=",
+            "name": "hyperfine",
+            "description": "A command-line benchmarking tool",
+            "stargazerCount": 7083,
+            "owner": {
+              "id": "MDQ6VXNlcjQyMDkyNzY=",
+              "avatarUrl": "https://avatars.githubusercontent.com/u/4209276?s=25&u=e6c4022c315b6cbecd5968ec256f4b02885eba41&v=4",
+              "login": "sharkdp"
+            }
+          },
+          {
+            "id": "MDEwOlJlcG9zaXRvcnkyMDcwNjY1NTU=",
+            "name": "DrString",
+            "description": "DrString finds issues in your Swift docstrings and fixes them for you.",
+            "stargazerCount": 132,
+            "owner": {
+              "id": "MDQ6VXNlcjc1MDY3",
+              "avatarUrl": "https://avatars.githubusercontent.com/u/75067?s=25&u=ebc2d437b1896d5dd0688c581f98c9b756dda736&v=4",
+              "login": "dduan"
+            }
+          },
+          {
+            "id": "MDEwOlJlcG9zaXRvcnkxNjMwNjE2NDA=",
+            "name": "DataSourcerer",
+            "description": "The missing link between API Calls (any data provider actually) and your UITableView (any view actually).",
+            "stargazerCount": 12,
+            "owner": {
+              "id": "MDEyOk9yZ2FuaXphdGlvbjM0OTQ0NjU=",
+              "avatarUrl": "https://avatars.githubusercontent.com/u/3494465?s=25&v=4",
+              "login": "creativepragmatics"
+            }
+          },
+          {
+            "id": "MDEwOlJlcG9zaXRvcnkzNDE2Mjg1NzA=",
+            "name": "HotReloading",
+            "description": "Hot reloading as a Swift Package",
+            "stargazerCount": 98,
+            "owner": {
+              "id": "MDQ6VXNlcjE3ODYwMzM=",
+              "avatarUrl": "https://avatars.githubusercontent.com/u/1786033?s=25&u=2fe82e3b21f83a01bb7bb552447c9d75a81623d7&v=4",
+              "login": "johnno1962"
+            }
+          },
+          {
+            "id": "MDEwOlJlcG9zaXRvcnkyMzU1Njc0ODQ=",
+            "name": "SwiftSemantics",
+            "description": "Uses SwiftSyntax to parse Swift code into its constituent declarations",
+            "stargazerCount": 178,
+            "owner": {
+              "id": "MDEyOk9yZ2FuaXphdGlvbjEwMzc5MDMx",
+              "avatarUrl": "https://avatars.githubusercontent.com/u/10379031?s=25&v=4",
+              "login": "SwiftDocOrg"
+            }
+          },
+          {
+            "id": "MDEwOlJlcG9zaXRvcnkzNDA0NTMxNTA=",
+            "name": "ChidoriMenu",
+            "description": "An easy way to add menus visually similar to iOS 14's Pull Down and Context Menus but with some added benefits",
+            "stargazerCount": 103,
+            "owner": {
+              "id": "MDQ6VXNlcjQzMTE4MTQ=",
+              "avatarUrl": "https://avatars.githubusercontent.com/u/4311814?s=25&v=4",
+              "login": "christianselig"
+            }
+          },
+          {
+            "id": "MDEwOlJlcG9zaXRvcnkyODUwNTU0MjE=",
+            "name": "swiftui.builds",
+            "description": "building cool stuff with swiftui",
+            "stargazerCount": 368,
+            "owner": {
+              "id": "MDQ6VXNlcjIyNzQ2NTYz",
+              "avatarUrl": "https://avatars.githubusercontent.com/u/22746563?s=25&u=89a0f1614e86297c8ba80498f25f1da95a12e70c&v=4",
+              "login": "FranckNdame"
+            }
+          }
+        ]
+      },
+      "repositories": {
+        "nodes": [
+          {
+            "id": "MDEwOlJlcG9zaXRvcnkzNTM2NjI4",
+            "name": "SFContainerViewController",
+            "description": "UIViewControllers containment predating Apple implementation. Works in both 4.x and 5.x iOS, no memory or hierarchy issues.",
+            "stargazerCount": 82,
+            "owner": {
+              "id": "MDQ6VXNlcjE0Njg5OTM=",
+              "avatarUrl": "https://avatars.githubusercontent.com/u/1468993?s=25&v=4",
+              "login": "krzysztofzablocki"
+            }
+          },
+          {
+            "id": "MDEwOlJlcG9zaXRvcnkzNzE3MjE1",
+            "name": "NSObject-SFExecuteOnDealloc",
+            "description": "A simple category on NSObject that allows you to execute block when object is deallocated ",
+            "stargazerCount": 18,
+            "owner": {
+              "id": "MDQ6VXNlcjE0Njg5OTM=",
+              "avatarUrl": "https://avatars.githubusercontent.com/u/1468993?s=25&v=4",
+              "login": "krzysztofzablocki"
+            }
+          },
+          {
+            "id": "MDEwOlJlcG9zaXRvcnkzNzI2Mzc1",
+            "name": "CCNode-SFGestureRecognizers",
+            "description": "Adding UIGestureRecognizers to cocos2d, painless.",
+            "stargazerCount": 207,
+            "owner": {
+              "id": "MDQ6VXNlcjE0Njg5OTM=",
+              "avatarUrl": "https://avatars.githubusercontent.com/u/1468993?s=25&v=4",
+              "login": "krzysztofzablocki"
+            }
+          },
+          {
+            "id": "MDEwOlJlcG9zaXRvcnkzODUzNTg1",
+            "name": "SFObservers",
+            "description": "NSNotificationCenter and KVO auto removal of observers.",
+            "stargazerCount": 316,
+            "owner": {
+              "id": "MDQ6VXNlcjE0Njg5OTM=",
+              "avatarUrl": "https://avatars.githubusercontent.com/u/1468993?s=25&v=4",
+              "login": "krzysztofzablocki"
+            }
+          },
+          {
+            "id": "MDEwOlJlcG9zaXRvcnk0MTEyNTA4",
+            "name": "LineDrawing",
+            "description": "Beatiful and fast smooth line drawing algorithm for iOS - as seen in Foldify.",
+            "stargazerCount": 1244,
+            "owner": {
+              "id": "MDQ6VXNlcjE0Njg5OTM=",
+              "avatarUrl": "https://avatars.githubusercontent.com/u/1468993?s=25&v=4",
+              "login": "krzysztofzablocki"
+            }
+          },
+          {
+            "id": "MDEwOlJlcG9zaXRvcnk0NjgzNzUy",
+            "name": "iOS-Hierarchy-Viewer",
+            "description": "iOS Hierarchy viewer - View and Coredata debugging made easy",
+            "stargazerCount": 1345,
+            "owner": {
+              "id": "MDQ6VXNlcjQ5MjQ0OQ==",
+              "avatarUrl": "https://avatars.githubusercontent.com/u/492449?s=25&v=4",
+              "login": "damian-kolakowski"
+            }
+          },
+          {
+            "id": "MDEwOlJlcG9zaXRvcnk1MTIyNTI1",
+            "name": "Pinch-to-reveal",
+            "description": "Pinch to reveal animation transition built with Layer masking, as seen in boeing app for iPad.",
+            "stargazerCount": 197,
+            "owner": {
+              "id": "MDQ6VXNlcjE0Njg5OTM=",
+              "avatarUrl": "https://avatars.githubusercontent.com/u/1468993?s=25&v=4",
+              "login": "krzysztofzablocki"
+            }
+          },
+          {
+            "id": "MDEwOlJlcG9zaXRvcnk3MzMwMzU4",
+            "name": "XibReferencing",
+            "description": "Simple category and sample showing how you can reference one Xib view from another",
+            "stargazerCount": 20,
+            "owner": {
+              "id": "MDQ6VXNlcjE0Njg5OTM=",
+              "avatarUrl": "https://avatars.githubusercontent.com/u/1468993?s=25&v=4",
+              "login": "krzysztofzablocki"
+            }
+          },
+          {
+            "id": "MDEwOlJlcG9zaXRvcnk4NjI4NDc1",
+            "name": "IconOverlaying",
+            "description": "Build informations on top of your app icon.",
+            "stargazerCount": 653,
+            "owner": {
+              "id": "MDQ6VXNlcjE0Njg5OTM=",
+              "avatarUrl": "https://avatars.githubusercontent.com/u/1468993?s=25&v=4",
+              "login": "krzysztofzablocki"
+            }
+          },
+          {
+            "id": "MDEwOlJlcG9zaXRvcnk5MzcxMTE3",
+            "name": "jenkins_jobs_to_statusboard",
+            "description": "Ruby script that generates html table for embedding in StatusBoard by Panic http://panic.com/statusboard/",
+            "stargazerCount": 15,
+            "owner": {
+              "id": "MDQ6VXNlcjE0Njg5OTM=",
+              "avatarUrl": "https://avatars.githubusercontent.com/u/1468993?s=25&v=4",
+              "login": "krzysztofzablocki"
+            }
+          }
+        ]
+      }
+    }
+  }
+}
